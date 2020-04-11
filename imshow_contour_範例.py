@@ -15,7 +15,7 @@ for i in range(n):
         r=((-10+i*dl)**2+(-10+j*dl)**2)**0.5
         V[i][j]=10-r*2
 
-plt.imshow(V,vmin=-10,vmax=10,extent=[-L,L,-L,L]) #vmin,vmax可限制最大最小值,extent控制x,y座標軸
+plt.imshow(V,origin='lower',vmin=-10,vmax=10,extent=[-L,L,-L,L]) #vmin,vmax可限制最大最小值,extent控制x,y座標軸
 plt.colorbar() #叫出色條colorbar
 plt.show()
 
