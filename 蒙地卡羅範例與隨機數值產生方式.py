@@ -12,5 +12,5 @@ print(s)    #期望值結果
 #隨機浮點數產生
 random_number=r.random()    #生成0~1隨機浮點數字
 print(random_number)
-print(80*random_number+20)    #乘上係數放大嶼平移即可得到想要區間中隨機數
+print(80*random_number+20)    #乘上係數放大與平移即可得到想要區間中隨機數
 #範例隨機數再20~100之間
